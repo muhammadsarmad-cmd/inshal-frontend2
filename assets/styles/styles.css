@@ -1,0 +1,273 @@
+a {
+  color: white
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+}
+
+.heading {
+  color: white
+}
+
+
+h1,h2,h3,h4,h5,h6{
+  font-weight:600;
+}
+
+h3{
+  color:white
+}
+
+.section-padding-top{
+  padding-top: 90px;
+}
+
+.section-padding-bottom{
+  padding-bottom: 90px;
+}
+
+.heading-padding-top{
+  padding-top:90px
+}
+
+.heading-padding-left{
+  padding-left:10px
+}
+
+.heading-padding-bottom{
+  padding-bottom: 90px;
+}
+
+
+.btn-pill {
+  padding: 0.5rem 1.5rem;     /* taller + wider for pill look */
+  border-radius: 9999px;      /* ensures ends are fully rounded */
+  background: linear-gradient(90deg, #F2436E, #7317A5);
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+
+h1 {
+  font-weight: 700;
+  font-size: 42px;
+  color: white;
+  line-height: 62.4px;
+  margin-bottom: 30px;
+  /* letter-spacing: -2px; */
+}
+
+
+
+
+p {
+  color: white;
+}
+
+.margin-bottom{
+  margin-bottom: 100px;
+}
+
+.pink-head {
+  color: #F2436E;
+}
+
+
+
+
+
+.border-rad {
+  border-radius: 30px;
+  border: 5px;
+}
+
+h4 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 36px;
+  line-height: 50px;
+}
+
+.gradient-border {
+  position: relative;
+  border-radius: 20px;
+
+}
+
+
+
+.gradient-border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 5px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #F2436E, #7317A5);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+
+.btn-gradient-border {
+  position: relative;
+  border-radius: 5px;
+  border:none;
+  background : transparent;
+  color: #fff;
+}
+
+
+
+.btn-gradient-border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 1px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #F2436E, #7317A5);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  
+}
+
+
+
+
+
+.sub-card {
+  position: relative;
+  background: linear-gradient(#05081c, #05081c) padding-box,
+    linear-gradient(90deg, #ff4d6d 0%, #9d4edd 100%) border-box;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  padding: 2.5rem 1rem;
+}
+
+
+
+
+.border-right-custom {
+  position: relative;
+}
+
+.border-right-custom::after {
+  content: "";
+  position: absolute;
+  top: 30px;
+  bottom: 30px;
+  right: 0;
+  width: 1px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.custom-margin {
+  margin-top: 136px;
+}
+
+
+.custom-sub-card h3 {
+  padding-top: 50px;
+  padding-left: 30px;
+}
+
+.custom-sub-card p {
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-bottom: 80px;
+}
+
+
+
+
+
+.title {
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+
+
+
+.health-card {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+  padding: 80px 30px 40px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.health-large {
+  min-height: 310px;
+}
+
+.spacing-tb {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.mobile-card{
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  border-radius: 20px;
+}
+
+
+.mobile-card h3{
+color: white;
+}
+
+.mobile-app-card {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    padding: 80px 30px 40px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+
+.f-border {
+    padding-right: 50px;
+    border-right: 1px solid white;
+}
+
+.f-border2 {
+    padding-left: 20px;
+}
+
+.box{
+  
+background: #FFFFFF;
+border: 1px solid #F0F0F0;
+box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.1);
+border-radius: 20px;
+}
+
+
+.sub-cards{
+  padding-top:30px;
+}
+
+
+.testinomial{
+  padding:20px 20px;
+  background-color: #F9FAFB; border-radius: 15px;
+}
