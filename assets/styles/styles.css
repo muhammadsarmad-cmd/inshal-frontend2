@@ -228,7 +228,9 @@ h4 {
   border-radius: 20px;
 }
 
-
+.nav-link{
+  color:white;
+}
 .mobile-card h3{
 color: white;
 }
